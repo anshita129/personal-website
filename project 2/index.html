@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anshita Batra Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      background: #f5ebe8;
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 30px 0 40px 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+    }
+    .navbar a {
+      color: #222;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .navbar a:hover {
+      color: #b08d57;
+    }
+    /* Main Card */
+    .main-card {
+      background: #f6edea;
+      border: 2px solid #e5dbd3;
+      border-radius: 8px;
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+      gap: 40px;
+    }
+    .main-card-content {
+      flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .main-card-content h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 18px;
+      color: #222;
+    }
+    .main-card-content p {
+      font-size: 1.25rem;
+      color: #444;
+      margin-bottom: 24px;
+    }
+    .main-card-content .handle {
+      font-size: 1rem;
+      color: #888;
+      margin-bottom: 18px;
+    }
+    /* Social Icons */
+    .social-icons {
+      display: flex;
+      gap: 18px;
+      margin-top: 8px;
+    }
+    .social-icons a {
+      text-decoration: none;
+      color: #222;
+      font-size: 1.5rem;
+      transition: color 0.2s;
+    }
+    .social-icons a:hover {
+      color: #b08d57;
+    }
+    .main-card-image img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%; /* This makes the image circular */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    /* Image Section */
+    .main-card-image {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 900px) {
+      .main-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+      }
+      .main-card-image img {
+        width: 90vw;
+        max-width: 320px;
+        height: auto;
+      }
+    }
+    .About{
+        text-align:center;
+        font-size: 50px;
+    }
+    .work{
+        text-align:center;
+        margin:10px;
+        padding:10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-card{
+        padding:20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#">CV</a>
+    <a href="">PORTFOLIO</a>
+    <a href="#">PODCAST</a>
+    <a href="#">BLOG</a>
+  </nav>
+
+  <!-- Main Card -->
+  <div class="main-card">
+    <div class="main-card-content">
+      <h1>ANSHITA BATRA</h1>
+      <p>I'm a pursuing computer science engineering from IIT Kharagpur.</p>
+      <div class="handle">anshita.batra2005@gmail.com</div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/batra_anshita/"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="https://github.com/anshita129"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/anshita-batra-03ba12316/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="main-card-image">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=400&q=80" alt="Bethany Jones with ice cream and flowers">
+    </div>
+  </div>
+  <div>
+    <h2 class="About Me">About Me</h2>
+    <p class ="work">
+    I am a computer science engineer with a strong interest in learning and exploring new concepts in technology. My current focus areas include algorithm design, machine learning, full-stack development, and various emerging research domains. I am passionate about expanding my technical skills and staying updated with the latest advancements in the field. Whether it’s building efficient algorithms, developing robust web applications, or diving into data-driven machine learning projects, I am always eager to take on new challenges and contribute to innovative solutions. I have included my works and research area in my CV and also uploaded the projects on github. Please go through them to get more detailed knowledge of my research and work.
+    </p>
+    <p class ="work">
+    I thrive in collaborative environments and enjoy working on projects that require creative problem-solving and continuous learning. My goal is to leverage my foundational knowledge and curiosity to make meaningful contributions to the tech community and beyond.
+    </p>
+  </div>
+</body>
+</html>
